@@ -1,13 +1,22 @@
-                                                The Project
+# Collaborative Filtering Model for Movie Ratings Prediction
 
-This project creates a collaborative filtering model to predict missing movie ratings from users using SoftImpute. 
+## The Project
 
-      The MovieLens Dataset
+This project creates a collaborative filtering model to predict missing movie ratings from users using **SoftImpute**.
 
-MovieLens is a non-commercial web-based movie recommender system, created in 1997 by GroupLens, a research lab at the University of Minnesota, in order to gather movie rating data for research purposes. Here is the link to this data: https://grouplens.org/datasets/movielens/ . Several versions are available. I will use the latest smallest dataset released. This version has 100,836 observations, and there variables: userId, movieId, rating. 
+### The MovieLens Dataset
 
-Visit this link for more information on the data https://files.grouplens.org/datasets/movielens/ml-latest-small-README.html 
+MovieLens is a non-commercial, web-based movie recommender system, created in **1997** by GroupLens, a research lab at the University of Minnesota. The system was designed to gather movie rating data for research purposes. You can access the dataset [here](https://grouplens.org/datasets/movielens/). Several versions are available, and for this project, we will use the **latest smallest dataset** released.
 
-    Custom Code
+- **Dataset Details:**
+  - **Observations**: 100,836
+  - **Variables**: `userId`, `movieId`, `rating`
+  
+For more information on the dataset, you can visit the official [MovieLens README](https://files.grouplens.org/datasets/movielens/ml-latest-small-README.html).
 
-soft_impute.py and functionsCF.py contain custom packages
+## Custom Code
+
+- **soft_impute.py**: Contains the implementation of the SoftImpute algorithm for matrix completion.
+- **functionsCF.py**: Contains custom functions for collaborative filtering.
+
+These custom packages help to predict missing ratings and improve the recommendation system's accuracy.                                          
