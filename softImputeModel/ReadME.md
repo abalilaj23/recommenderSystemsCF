@@ -1,13 +1,22 @@
-                                              The Project
+# Collaborative Filtering Model for Joke Ratings Prediction
 
-This project creates a collaborative filtering model to predict missing joke ratings from users using SoftImpute. 
+## The Project
 
-      The Jester Dataset 
-      
-Jester is a dataset developed by Ken Goldberg, Theresa Roeder, Dhruv Gupta, and Chris Perkins.at UC Berkeley. The dataset contains jokes rated by users on a scale of -10 to 10. This version of the data contains 1,048,576 observations, and 3 variables: user_id, joke_id, rating. 
+This project creates a collaborative filtering model to predict missing joke ratings from users using **SoftImpute**.
 
-Visit this link for more information on the data (https://eigentaste.berkeley.edu/dataset/)
+### The Jester Dataset
 
-    Custom Code
+The Jester dataset was developed by **Ken Goldberg**, **Theresa Roeder**, **Dhruv Gupta**, and **Chris Perkins** at UC Berkeley. It contains jokes rated by users on a scale of **-10 to 10**. This version of the dataset includes **1,048,576 observations** and 3 variables:
 
-soft_impute.py and functionsCF.py contain custom packages
+- `user_id`
+- `joke_id`
+- `rating`
+
+For more information on the dataset, visit [Jester Dataset](https://eigentaste.berkeley.edu/dataset/).
+
+## Custom Code
+
+- **soft_impute.py**: Contains the implementation of the SoftImpute algorithm for matrix completion.
+- **functionsCF.py**: Contains custom functions for collaborative filtering.
+
+These custom packages are used to predict missing joke ratings and enhance the recommendation system's performance.
